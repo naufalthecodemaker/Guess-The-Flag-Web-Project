@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+  background-image: url("../images/game-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-section{
+  padding: 25px;
+  max-width: 100%;
+}
+
+.game-title-background{
+  background-color: rgba(0, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 35px;
+  max-width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-title-background-left-section, .game-title-background-right-section{
+  border-radius: 35px;
+  max-width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-title-image{
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+}
+
+.game-title-text{
+  text-align: center;
+  font-size: clamp(24px, 5vw,75px);
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+.main-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 70px;
+  max-width: 100%;
+  padding: 130px;
+  height: 260px;
+}
+
+#play-link{
+  text-decoration: none;
+  color: white;
+}
+
+.play-button, .high-score-button{
+  width: 300px;
+  background-color: rgb(255, 165, 0);
+  color: white;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Bitcount Grid Double", system-ui;
+  font-size: 35px;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+.play-button:hover, .high-score-button:hover{
+  background-color: rgba(255, 165, 0, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.play-button:active, .high-score-button:active{
+  background-color: rgba(255, 165, 0, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: 0.3;
+}
+
+.fa-play, .fa-trophy{
+  font-size: 26px;
+  margin-left: 8px;
+}
+
+.footer-section{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 14px;
+  max-width: 100%;
+  background-color: rgba(0, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  margin: 0;
+}
+
+.my-profile{
+  font-family: "Bitcount Grid Double", system-ui;
+  font-size: 15px;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
