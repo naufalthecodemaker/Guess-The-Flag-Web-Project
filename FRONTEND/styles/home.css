@@ -95,6 +95,7 @@ body{
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   transition: 0.2;
+  transform: scaleX(1.1);
 }
 
 .play-button:active, .high-score-button:active{

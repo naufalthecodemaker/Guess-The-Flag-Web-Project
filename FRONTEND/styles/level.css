@@ -36,6 +36,7 @@
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   transition: 0.2;
+  transform: scaleX(1.1);
 }
 
 .easy-button:active, .medium-button:active, .hard-button:active, .expert-button:active, .impossible-button:active{
