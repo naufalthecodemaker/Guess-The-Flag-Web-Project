@@ -1,0 +1,51 @@
+.level-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  max-width: 100%;
+  padding: 130px;
+  height: 258px;
+}
+
+.easy-button, .medium-button, .hard-button, .expert-button, .impossible-button{
+  width: 300px;
+  background-color: rgb(255, 165, 0);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Bitcount Grid Double", system-ui;
+  font-size: 23px;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+.easy-button:hover, .medium-button:hover, .hard-button:hover, .expert-button:hover, .impossible-button:hover{
+  background-color: rgba(255, 165, 0, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: 0.2;
+}
+
+.easy-button:active, .medium-button:active, .hard-button:active, .expert-button:active, .impossible-button:active{
+  background-color: rgba(255, 165, 0, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: 0.3;
+}
+
+.fa-star{
+  font-size: 20px;
+  margin-left: 3px;
+}
