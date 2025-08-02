@@ -1,16 +1,87 @@
 /* wadah bar */
-#timer-bar {
+#timer-bar{
   width: 100%;          /* penuh selebar parent  */
   height: 20px;         /* tinggi bar            */
-  background: #c50303;     /* warna latar abu-abu   */
+  background: #c50303; /* warna latar merah   */
   border-radius: 10px;
   overflow: hidden;     /* biar sudut bulat rapi */
 }
 
 /* isian bar yang akan menyusut */
-#timer-fill {
-  width: 100%;          /* mulai dari 100 % */
+#timer-fill{
+  width: 100%; /* mulai dari 100 % */
   height: 100%;
   background: #28a745; 
   transition: width 0.1s linear;
+}
+
+.flag-container{
+  background-color: rgba(0, 242, 255, 0.524);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 35px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+}
+
+.flag-image{
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.options{
+  display: flex;
+  width: 100%;
+  height: 666px;
+}
+
+.left-section-options, .right-section-options{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 130px;
+}
+
+.option-1-button, .option-2-button, .option-3-button, .option-4-button{
+  width: 300px;
+  background-color: rgb(255, 165, 0);
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Bitcount Grid Double", system-ui;
+  font-size: 30px;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+.option-1-button:hover, .option-2-button:hover, .option-3-button:hover, .option-4-button:hover{
+  background-color: rgba(255, 165, 0, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: 0.2;
+  transform: scaleX(1.1);
+}
+
+.option-1-button:active, .option-2-button:active, .option-3-button:active, .option-4-button:active{
+  background-color: rgba(255, 165, 0, 0.3);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: 0.3;
 }

@@ -5,22 +5,22 @@
   justify-content: center;
   gap: 35px;
   max-width: 100%;
-  padding: 130px;
+  padding: 225px;
   height: 258px;
 }
 
 .easy-button, .medium-button, .hard-button, .expert-button, .impossible-button{
-  width: 300px;
+  width: 320px;
   background-color: rgb(255, 165, 0);
   color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border: none;
   border-radius: 15px;
   cursor: pointer;
   transition: 0.3s;
   font-family: "Bitcount Grid Double", system-ui;
-  font-size: 23px;
+  font-size: 25px;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;

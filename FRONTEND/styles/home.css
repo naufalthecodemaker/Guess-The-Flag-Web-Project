@@ -59,7 +59,7 @@ body{
   justify-content: center;
   gap: 70px;
   max-width: 100%;
-  padding: 130px;
+  padding: 225px;
   height: 258px;
 }
 
@@ -124,7 +124,7 @@ body{
 
 .my-profile{
   font-family: "Bitcount Grid Double", system-ui;
-  font-size: 15px;
+  font-size: 18px;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
