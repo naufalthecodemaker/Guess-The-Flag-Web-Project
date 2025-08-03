@@ -5,22 +5,22 @@
   justify-content: center;
   gap: 35px;
   max-width: 100%;
-  padding: 225px;
+  padding: 135px;
   height: 258px;
 }
 
 .easy-button, .medium-button, .hard-button, .expert-button, .impossible-button{
-  width: 320px;
+  width: 300px;
   background-color: rgb(255, 165, 0);
   color: white;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: none;
   border-radius: 15px;
   cursor: pointer;
   transition: 0.3s;
   font-family: "Bitcount Grid Double", system-ui;
-  font-size: 25px;
+  font-size: 20px;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -47,6 +47,6 @@
 }
 
 .fa-star{
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 3px;
 }
